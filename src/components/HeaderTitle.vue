@@ -41,11 +41,13 @@ button {
 }
 
 #paulicelli {
+    background-color: AntiqueWhite;
     display: inline-block;
     width: 80vw;
 }
 
 #menu {
+    background-color: AntiqueWhite;
     display: inline-flex;
     width: 20vw;
     writing-mode: vertical-rl;
@@ -55,6 +57,7 @@ button {
 }
 
 #sabino {
+    background-color: AntiqueWhite;
     color: var(--accent-color);
     text-align: end;
     writing-mode: vertical-rl;

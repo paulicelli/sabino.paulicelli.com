@@ -7,6 +7,8 @@
       <table-list :content="learning" />
       <h3>foreign<br>experiences</h3>
       <table-list :content="experiences" />
+      <h3>passions</h3>
+      <table-list :content="passions" />
     </main>
   </div>
 </template>
@@ -106,6 +108,38 @@ export default {
           'p': 'Apple European Education Summit',
           'h5': 'London (2018)'
         },
+      ],
+      'passions': [
+        {
+          'n': 1,
+          'p': 'Board Games',
+          'h5': '&#9829'
+        },
+        {
+          'n': 2,
+          'p': 'Learning',
+          'h5': '&#9829'
+        },
+        {
+          'n': 3,
+          'p': 'Manual crafts',
+          'h5': '&#9829'
+        },
+        {
+          'n': 4,
+          'p': 'Walking with my wife',
+          'h5': '&#9829'
+        },
+        {
+          'n': 5,
+          'p': 'Old computer games',
+          'h5': '&#9829'
+        },
+        {
+          'n': 5,
+          'p': 'Stranger Things',
+          'h5': '&#9829'
+        }
       ],
     }
   }
