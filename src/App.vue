@@ -3,10 +3,10 @@
     <header-title/>
     <nav>
       <li><router-link to="/"><i>home</i></router-link></li>
-      <li><router-link to="/"><i>about</i></router-link></li>
-      <li><router-link to="/"><i>works</i></router-link></li>
-      <li><router-link to="/"><i>skills</i></router-link></li>
-      <li><router-link to="/"><i>passions</i></router-link></li>
+      <li><router-link to="/about"><i>about</i></router-link></li>
+      <li><router-link to="/resume"><i>resume</i></router-link></li>
+      <li><router-link to="/works"><i>works</i></router-link></li>
+      <li><router-link to="/contact"><i>contact</i></router-link></li>
     </nav>
     <router-view/>
   </div>
@@ -16,7 +16,6 @@
 import HeaderTitle from '@/components/HeaderTitle.vue'
 
 export default {
-  name: 'home',
   components: {
     HeaderTitle
   }
@@ -62,7 +61,7 @@ body {
     background-color: var(--background);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font);
     font-weight: 300;
 }
