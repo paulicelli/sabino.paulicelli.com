@@ -2,11 +2,11 @@
   <div id="app">
     <header-title v-on:hide-nav="hideNav"/>
     <nav :class="{ 'nav-hidden': isNavHidden }">
-      <li><router-link to="/"><i>home</i></router-link></li>
-      <li><router-link to="/about"><i>about</i></router-link></li>
-      <li><router-link to="/resume"><i>resume</i></router-link></li>
-      <li><router-link to="/works"><i>works</i></router-link></li>
-      <li><router-link to="/contact"><i>contact</i></router-link></li>
+      <li v-on:click="hideNav"><router-link to="/"><i>home</i></router-link></li>
+      <li v-on:click="hideNav"><router-link to="/about"><i>about</i></router-link></li>
+      <li v-on:click="hideNav"><router-link to="/resume"><i>resume</i></router-link></li>
+      <li v-on:click="hideNav"><router-link to="/works"><i>works</i></router-link></li>
+      <li v-on:click="hideNav"><router-link to="/contact"><i>contact</i></router-link></li>
     </nav>
     <router-view/>
   </div>
