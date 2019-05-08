@@ -36,12 +36,10 @@ export default {
 <style>
 :root {
     /* COLORS */
-    --main-color: Black;
-    --accent-color: Red;
+    --main-color: rgba(12, 12, 10, 0.8);
+    --accent-color: #f9423a;
 
-    --background: AntiqueWhite;
-
-    --bg-color: rgb(230, 230, 230);
+    --background: #f6f3ea;
 
     /* FONTS */
     --header-font: "Futura", "Arial Black", sans-serif;
@@ -117,7 +115,7 @@ a:focus {
 
 nav {
   box-sizing: content-box;
-  background-color: AntiqueWhite; 
+  background-color: var(--background); 
 
   position: fixed;
   right: 0;

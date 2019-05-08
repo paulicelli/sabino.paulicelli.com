@@ -63,6 +63,11 @@ export default {
           'n': 8,
           'p': '<a href="https://stackoverflow.com/users/4242891/sabi">sabi</a>',
           'h5': '<i class="fab fa-stack-overflow"></i>'
+        },
+        {
+          'n': 9,
+          'p': '<a href="https://www.linkedin.com/in/sabino-paulicelli-3a1573120">Sabino Paulicelli</a>',
+          'h5': '<i class="fab fa-linkedin"></i>'
         }
       ],
       'learning': [
