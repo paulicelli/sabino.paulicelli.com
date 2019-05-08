@@ -4,7 +4,7 @@
             <h1>paulicelli</h1>
         </div>
         <div id="menu">
-            <button>
+            <button @click="$emit('hide-nav')">
                 <h2>iii</h2>
             </button>
         </div>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-
+    name: 'HeaderTitle',
 }
 </script>
 

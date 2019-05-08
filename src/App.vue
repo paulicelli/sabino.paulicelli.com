@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <header-title/>
-    <nav>
+    <header-title v-on:hide-nav="hideNav"/>
+    <nav :class="{ 'nav-hidden': isNavHidden }">
       <li><router-link to="/"><i>home</i></router-link></li>
       <li><router-link to="/about"><i>about</i></router-link></li>
       <li><router-link to="/resume"><i>resume</i></router-link></li>
@@ -18,6 +18,16 @@ import HeaderTitle from '@/components/HeaderTitle.vue'
 export default {
   components: {
     HeaderTitle
+  },
+  data() {
+    return {
+      'isNavHidden': true
+    }
+  },
+  methods: {
+    hideNav() {
+      this.isNavHidden = !this.isNavHidden
+    }
   }
 }
 </script>
@@ -120,7 +130,7 @@ nav {
 
   list-style: none;
 
-  transition: right ease-out 1s;
+  transition: right ease-out 0.5s;
 }
 
 nav > li {

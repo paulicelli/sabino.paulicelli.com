@@ -2,7 +2,7 @@
   <div class="TableList">
       <table v-for='row in info' :key='info.n'>
         <tr>
-          <td style="width: 66%; text-align: right; padding-right: 0.5em;"><p v-html="row.p"></p></td>
+          <td style="width: 66%; text-align: right; padding-right: 1em;"><p v-html="row.p"></p></td>
           <td style="width: 34p%; text-align: left;"><h5 v-html="row.h5"></h5></td>
         </tr>
       </table>

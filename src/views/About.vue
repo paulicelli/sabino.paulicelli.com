@@ -27,27 +27,42 @@ export default {
         {
           'n': 1,
           'p': '13th March, 1980',
-          'h5': 'birth date'
+          'h5': '<i class="fas fa-birthday-cake"></i>'
         },
         {
           'n': 2,
           'p': 'Calusco d\'Adda',
-          'h5': 'city'
+          'h5': '<i class="fas fa-city"></i>'
         },
         {
           'n': 3,
           'p': 'via san Giuliano, 84'+'<br>'+'24033 (BG) IT',
-          'h5': 'address'
+          'h5': '<i class="fas fa-map-marker-alt"></i>'
         },
         {
           'n': 4,
           'p': '+39 392 680 1771',
-          'h5': 'phone'
+          'h5': '<i class="fas fa-phone"></i>'
         },
         {
           'n': 5,
-          'p': 'sabino@paulicelli.com',
-          'h5': 'personal'
+          'p': '<a href="mailto:sabino@paulicelli.com">sabino@paulicelli.com</a>',
+          'h5': '<i class="fas fa-envelope"></i>'
+        },
+        {
+          'n': 6,
+          'p': '<a href="https://twitter.com/SabinoP_">SabinoP_</a>',
+          'h5': '<i class="fab fa-twitter"></i>'
+        },
+        {
+          'n': 7,
+          'p': '<a href="https://github.com/paulicelli">paulicelli</a>',
+          'h5': '<i class="fab fa-github"></i>'
+        },
+        {
+          'n': 8,
+          'p': '<a href="https://stackoverflow.com/users/4242891/sabi">sabi</a>',
+          'h5': '<i class="fab fa-stack-overflow"></i>'
         }
       ],
       'learning': [
@@ -113,32 +128,32 @@ export default {
         {
           'n': 1,
           'p': 'Board Games',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         },
         {
           'n': 2,
           'p': 'Learning',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         },
         {
           'n': 3,
           'p': 'Manual crafts',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         },
         {
           'n': 4,
           'p': 'Walking with my wife',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         },
         {
           'n': 5,
           'p': 'Old computer games',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         },
         {
           'n': 5,
           'p': 'Stranger Things',
-          'h5': '&#9829'
+          'h5': '<i class="fas fa-heart"></i>'
         }
       ],
     }
