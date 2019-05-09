@@ -3,7 +3,8 @@
         <div id="paulicelli">
             <h1>paulicelli</h1>
         </div>
-        <div id="menu">
+        <div id="divider"></div>
+        <div id="menuButton">
             <button @click="$emit('hide-nav')">
                 <div></div>
                 <div></div>
@@ -43,7 +44,11 @@ button {
     width: 80vw;
 }
 
-#menu {
+#divider {
+    display: none;
+}
+
+#menuButton {
     background-color: var(--background);
     display: inline-flex;
     width: 20vw;
@@ -52,7 +57,7 @@ button {
     justify-content: center;
 }
 
-#menu > button > div {
+#menuButton > button > div {
     background-color: var(--main-color);
 
     width: 10vw;
@@ -73,5 +78,51 @@ button {
 
 #sabino > h1 {
     font-weight: bold !important;
+}
+
+@media screen and (min-width: 48rem) {
+    #menuButton {
+        display: none;
+    }
+
+    h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    }
+
+    .HeaderTitle {
+        position: initial;
+        width: 100vw;
+        height: 8em;
+        display: flex;
+        transform: rotate(-10deg);
+    }
+
+    #paulicelli {
+    background-color: var(--background);
+    display: inline-block;
+    width: inherit;
+    align-self: flex-start;
+    }
+
+    #paulicelli > h1 {
+        text-align:right;
+    }
+
+    #divider {
+        display: inline-block;
+        width: 1em;
+        height: 100%;
+        border-left: solid 4px var(--main-color);
+    }
+
+    #sabino {
+        writing-mode: horizontal-tb;
+        display: inline-block;
+        align-self: flex-end;
+        width: inherit;
+        padding: 0;
+        float: none;
+    }
 }
 </style>
