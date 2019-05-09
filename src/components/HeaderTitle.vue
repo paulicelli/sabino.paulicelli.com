@@ -5,7 +5,9 @@
         </div>
         <div id="menu">
             <button @click="$emit('hide-nav')">
-                <h2>iii</h2>
+                <div></div>
+                <div></div>
+                <div></div>
             </button>
         </div>
         <div id="sabino">
@@ -23,11 +25,6 @@ export default {
 <style scoped>
 h1 {
     font-size: 15vw;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 12vw;
     text-transform: uppercase;
 }
 
@@ -50,10 +47,17 @@ button {
     background-color: var(--background);
     display: inline-flex;
     width: 20vw;
-    writing-mode: vertical-rl;
 
     align-items: center;
     justify-content: center;
+}
+
+#menu > button > div {
+    background-color: var(--main-color);
+
+    width: 10vw;
+    height: 2vw;
+    margin: 0.5em 0;
 }
 
 #sabino {
@@ -63,7 +67,11 @@ button {
     writing-mode: vertical-rl;
 
     width: 20vw;
-    padding-top: 1em;
+    padding-top: 2em;
     float: right;
+}
+
+#sabino > h1 {
+    font-weight: bold !important;
 }
 </style>
