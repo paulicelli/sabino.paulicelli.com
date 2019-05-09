@@ -105,22 +105,22 @@ p {
 }
 
 a {
-    color: inherit;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: inherit;
+    color: var(--accent-color);
     text-decoration:underline;
 }
 
 a:visited {
-    color: inherit;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 a:focus {
-    color: inherit;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
@@ -143,6 +143,7 @@ nav {
 }
 
 nav > li {
+  font-size: 1.1em;
   text-align: right;
   padding: 0.2em 0;
 }
@@ -151,4 +152,7 @@ nav > li {
   right: calc(-25vw - 1em);
 }
 
+.router-link-exact-active {
+  font-weight: bold;
+}
 </style>
