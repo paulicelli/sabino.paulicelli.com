@@ -118,8 +118,8 @@ nav {
   background-color: var(--background); 
 
   position: fixed;
-  right: 0;
-  top: calc(50vh + 2em);
+  right: 0
+  top: 50vh;
   width: calc(100vw - (80vw + 1em));
   margin: 1em 0;
   padding: 0 1em;

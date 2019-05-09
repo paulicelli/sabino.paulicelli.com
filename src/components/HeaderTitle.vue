@@ -67,7 +67,7 @@ button {
     writing-mode: vertical-rl;
 
     width: 20vw;
-    padding-top: 2em;
+    padding-top: 1em;
     float: right;
 }
 
