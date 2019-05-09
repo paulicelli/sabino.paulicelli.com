@@ -31,9 +31,13 @@ export default {
         clearTimeout(this.navTimer);
       }
       this.navTimer = setTimeout(this.hideNav, 2000);
+      this.scrollTop()
     },
     hideNav() {
       this.isNavHidden = !this.isNavHidden
+    },
+    scrollTop() {
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
   }
 }
