@@ -50,6 +50,11 @@ export default {
         },
         {
           'n': 3,
+          'p': 'MESC - Mindfulness Experience Sampling for Children'+'<br>'+'iOS app - Dott. Tanya Lecchi',
+          'h5': '2017 - 2018'
+        },
+        {
+          'n': 4,
           'p': '<a href="panfrutta.it">panfrutta.it</a>'+'<br>'+'Non solo frutta Snc',
           'h5': '2017'
         }
