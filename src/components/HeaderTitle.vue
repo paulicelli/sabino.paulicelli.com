@@ -80,7 +80,7 @@ button {
     font-weight: bold !important;
 }
 
-@media screen and (min-width: 48rem) {
+@media (min-width: 48rem) {
     #menuButton {
         display: none;
     }
@@ -92,7 +92,8 @@ button {
 
     .HeaderTitle {
         position: initial;
-        width: 100vw;
+        margin: 2em 10vw;
+        width: 80vw;
         height: 8em;
         display: flex;
         transform: rotate(-10deg);
@@ -111,7 +112,7 @@ button {
 
     #divider {
         display: inline-block;
-        width: 1em;
+        width: 0;
         height: 100%;
         border-left: solid 4px var(--main-color);
     }
@@ -122,6 +123,7 @@ button {
         align-self: flex-end;
         width: inherit;
         padding: 0;
+        margin-right: 4em;
         float: none;
     }
 }

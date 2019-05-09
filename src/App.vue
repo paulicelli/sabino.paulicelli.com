@@ -144,6 +144,7 @@ nav {
 
 nav > li {
   font-size: 1.1em;
+  text-transform: capitalize;
   text-align: right;
   padding: 0.2em 0;
 }
@@ -154,5 +155,27 @@ nav > li {
 
 .router-link-exact-active {
   font-weight: bold;
+}
+
+@media (min-width: 48rem) {
+  nav {
+    box-sizing: content-box;
+    background-color: var(--background); 
+
+    position: initial;
+    width: 80vw;
+    margin: 2em 10vw 0 10vw;
+    padding: 0.5em 0;
+
+    border-top: solid var(--main-color) 4px;
+    border-bottom: solid var(--main-color) 4px;
+    border-left: none;
+
+    list-style: none;
+    transition: none;
+
+    display: flex;
+    justify-content: space-around;
+  }
 }
 </style>

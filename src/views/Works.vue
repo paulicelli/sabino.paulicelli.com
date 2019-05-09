@@ -78,4 +78,17 @@ h3 {
 main {
   margin: 2em 0;
 }
+
+@media (min-width: 48rem) {
+  .works {
+  width: 100vw;
+
+  padding: 0;
+}
+
+  main {
+    margin: 4em 10vw;
+    width: 80vw;
+  }
+}
 </style>

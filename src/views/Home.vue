@@ -52,5 +52,24 @@ h3 {
 main {
   margin: 5em 0;
 }
-</style>
 
+@media (min-width: 48rem) {
+  #foto {
+    width: 16em;
+    display: initial;
+    float: left;
+    margin: 0 2em 1em 0;
+  }
+
+  .home {
+  width: 100vw;
+
+  padding: 0;
+}
+
+  main {
+    margin: 4em 10vw;
+    width: 80vw;
+  }
+}
+</style>
