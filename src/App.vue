@@ -2,11 +2,11 @@
   <div id="app">
     <header-title v-on:hide-nav="hideNav"/>
     <nav :class="{ 'nav-hidden': isNavHidden }">
-      <li v-on:click="hideNav"><router-link to="/"><i>home</i></router-link></li>
-      <li v-on:click="hideNav"><router-link to="/about"><i>about</i></router-link></li>
-      <li v-on:click="hideNav"><router-link to="/resume"><i>resume</i></router-link></li>
-      <li v-on:click="hideNav"><router-link to="/works"><i>works</i></router-link></li>
-      <li v-on:click="hideNav"><router-link to="/contact"><i>contact</i></router-link></li>
+      <li v-on:click="waitAndHideNav"><router-link to="/"><i>home</i></router-link></li>
+      <li v-on:click="waitAndHideNav"><router-link to="/about"><i>about</i></router-link></li>
+      <li v-on:click="waitAndHideNav"><router-link to="/resume"><i>resume</i></router-link></li>
+      <li v-on:click="waitAndHideNav"><router-link to="/works"><i>works</i></router-link></li>
+      <li v-on:click="waitAndHideNav"><router-link to="/contact"><i>contact</i></router-link></li>
     </nav>
     <router-view/>
   </div>
@@ -21,10 +21,17 @@ export default {
   },
   data() {
     return {
-      'isNavHidden': true
+      'isNavHidden': true,
+      'navTimer': null
     }
   },
   methods: {
+    waitAndHideNav() {
+      if (this.navTimer != null){
+        clearTimeout(this.navTimer);
+      }
+      this.navTimer = setTimeout(this.hideNav, 2000);
+    },
     hideNav() {
       this.isNavHidden = !this.isNavHidden
     }
