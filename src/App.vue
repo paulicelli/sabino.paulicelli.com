@@ -119,7 +119,7 @@ nav {
 
   position: fixed;
   right: 0;
-  top: 50vh;
+  top: calc(50vh + 2em);
   width: calc(100vw - (80vw + 1em));
   margin: 1em 0;
   padding: 0 1em;
