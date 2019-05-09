@@ -32,6 +32,16 @@ export default new Router({
       component: function () { 
         return import(/* webpackChunkName: "resume" */ './views/Resume.vue')
       }
+    },
+    {
+      path: '/works',
+      name: 'works',
+      // route level code-splitting
+      // this generates a separate chunk (works.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: function () { 
+        return import(/* webpackChunkName: "works" */ './views/Works.vue')
+      }
     }
   ]
 })
