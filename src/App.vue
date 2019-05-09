@@ -118,7 +118,7 @@ nav {
   background-color: var(--background); 
 
   position: fixed;
-  right: 0
+  right: 0;
   top: 50vh;
   width: calc(100vw - (80vw + 1em));
   margin: 1em 0;
