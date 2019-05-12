@@ -100,7 +100,7 @@ button {
     }
 
     #paulicelli {
-    background-color: var(--background);
+    background-color: transparent;
     display: inline-block;
     width: inherit;
     align-self: flex-start;
