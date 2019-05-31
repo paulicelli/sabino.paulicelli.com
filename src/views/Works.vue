@@ -49,7 +49,7 @@ export default {
         },
         {
           'n': 2,
-          'p': '<a href="surflanguage.com">surflanguage.com</a>'+'<br>'+'Surf Language Ass. Culturale',
+          'p': '<a href="https://www.surflanguage.com">surflanguage.com</a>'+'<br>'+'Surf Language Ass. Culturale',
           'h5': '2018'
         },
         {
@@ -59,7 +59,7 @@ export default {
         },
         {
           'n': 4,
-          'p': '<a href="panfrutta.it">panfrutta.it</a>'+'<br>'+'Non solo frutta Snc',
+          'p': '<a href="https://www.panfrutta.it">panfrutta.it</a>'+'<br>'+'Non solo frutta Snc',
           'h5': '2017'
         }
       ]
