@@ -73,7 +73,7 @@ export default {
       'learning': [
         {
           'n': 1,
-          'p': 'High School,'+'<br>'+'Liceo Scientifico',
+          'p': 'High School,'+'<br>'+'Liceo Scientifico Di Cagno Abbrescia - Bari',
           'h5': 'studies'
         },
         {
@@ -83,49 +83,39 @@ export default {
         },
         {
           'n': 3,
-          'p': 'swimming'+'<br>'+'martial arts',
-          'h5': 'sports'
+          'p': 'Native',
+          'h5': 'italian'
         },
         {
           'n': 4,
-          'p': 'Architecture'+'<br>'+'Firenze University',
-          'h5': 'studies'+'<br>'+'(discont.)'
-        },
-        {
-          'n': 5,
-          'p': 'Italian (native)'+'<br>'+'English (fluent)',
-          'h5': 'languages'
+          'p': 'Fluent',
+          'h5': 'english'
         }
       ],
       'experiences': [
         {
           'n': 1,
-          'p': 'English Course'+'<br>'+'Bashee\'s College',
-          'h5': 'London (1995)'
-        },
-        {
-          'n': 2,
           'p': 'Genius Training'+'<br>'+'Apple Store Regent St',
           'h5': 'London (2009)'
         },
         {
-          'n': 3,
+          'n': 2,
           'p': 'Apple European Employee Forum',
           'h5': 'London (2010)'
         },
         {
-          'n': 4,
-          'p': 'User Acceptance Testing',
+          'n': 3,
+          'p': 'User Acceptance Testing'+'<br>'+'Testing, bug hunt and report, feedback on internal software',
           'h5': 'Cupertino (2011)'
         },
         {
-          'n': 5,
-          'p': 'User Acceptance Testing',
+          'n': 4,
+          'p': 'User Acceptance Testing'+'<br>'+'Testing, bug hunt and report, feedback on internal software',
           'h5': 'Cupertino (2012)'
         },
         {
-          'n': 6,
-          'p': 'Apple European Education Summit',
+          'n': 5,
+          'p': 'Apple European Education Summit'+'<br>'+'Attendees support and live demos',
           'h5': 'London (2018)'
         },
       ],
@@ -133,32 +123,32 @@ export default {
         {
           'n': 1,
           'p': 'Board Games',
-          'h5': '<i class="fas fa-heart"></i>'
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         },
         {
           'n': 2,
-          'p': 'Learning',
-          'h5': '<i class="fas fa-heart"></i>'
+          'p': 'Fables and science fiction',
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         },
         {
           'n': 3,
           'p': 'Manual crafts',
-          'h5': '<i class="fas fa-heart"></i>'
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         },
         {
           'n': 4,
-          'p': 'Walking with my wife',
-          'h5': '<i class="fas fa-heart"></i>'
+          'p': 'Walking - trekking with my wife',
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         },
         {
           'n': 5,
-          'p': 'Old computer games',
-          'h5': '<i class="fas fa-heart"></i>'
+          'p': 'Old videogames, mostly \‘80',
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         },
         {
           'n': 5,
           'p': 'Stranger Things',
-          'h5': '<i class="fas fa-heart"></i>'
+          'h5': '<i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i>'
         }
       ],
     }

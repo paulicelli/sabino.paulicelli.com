@@ -5,13 +5,17 @@
       <p>
         Of course in my learning journey I wrote a ton of code, sometimes for me or supporting other people's work. However, even if only as second job, my passion led me to at least 3 finished jobs I did and I'm glad to show in this resume.
       </p>
+      <h3>zelandia travel (work in progress)</h3>
+      <p>
+        A website for a Tour Agency, written in VueJS as a PWA. The backend for data and the admin page in Laravel and a faster API served by a Vapor/Swift server.
+      </p>
       <h3>this resume as website</h3>
       <p>
         Willing to show some skills for an interview, I did this website in 2 half-days, very quick and dirty :] , using VueJS. The source code is on Github at <a href="https://github.com/paulicelli/sabino.paulicelli.com">https://github.com/paulicelli/sabino.paulicelli.com</a>.
       </p>
       <h3>surflanguage.com</h3>
       <p>
-        A website for a Lingustic / Surf School, coded in PHP, multilanguage thanks to a little SQLite database.
+        A website for a Lingustic / Surf School, coded in PHP, multilanguage strings served by an SQLite database.
       </p>
       <h3>MESC: Mindfulness Experience Sampling for Children</h3>
       <p>
@@ -44,18 +48,18 @@ export default {
       'works': [
         {
           'n': 1,
-          'p': '<a href="https://sabino.paulicelli.com">this website</a>'+'<br>'+'sabino.paulicelli.com',
+          'p': '<a href="https://www.zelandiatravel.it">zelandiatravel.it</a>'+'<br>'+'Zelandia Travel di So.Im.Tour',
           'h5': '2019'
         },
         {
           'n': 2,
-          'p': '<a href="https://www.surflanguage.com">surflanguage.com</a>'+'<br>'+'Surf Language Ass. Culturale',
-          'h5': '2018'
+          'p': '<a href="https://sabino.paulicelli.com">this website</a>'+'<br>'+'sabino.paulicelli.com',
+          'h5': '2019'
         },
         {
           'n': 3,
-          'p': 'MESC - Mindfulness Experience Sampling for Children'+'<br>'+'iOS app - Dott. Tanya Lecchi',
-          'h5': '2017 - 2018'
+          'p': '<a href="https://www.surflanguage.com">surflanguage.com</a>'+'<br>'+'Surf Language Ass. Culturale',
+          'h5': '2018'
         },
         {
           'n': 4,
