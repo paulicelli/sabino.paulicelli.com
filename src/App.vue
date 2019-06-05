@@ -6,7 +6,7 @@
       <li v-on:click="waitAndHideNav"><router-link to="/about"><i>about</i></router-link></li>
       <li v-on:click="waitAndHideNav"><router-link to="/resume"><i>resume</i></router-link></li>
       <li v-on:click="waitAndHideNav"><router-link to="/works"><i>works</i></router-link></li>
-      <!-- <li v-on:click="waitAndHideNav"><router-link to="/contact"><i>contact</i></router-link></li> -->
+      <li v-on:click="waitAndHideNav"><a href="./201906_cv_sabino_paulicelli.pdf"><i>download PDF</i></a></li>
     </nav>
     <router-view/>
   </div>
