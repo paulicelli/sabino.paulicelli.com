@@ -25,10 +25,6 @@
       <p>
         My very first finished website, made for a friend using Bootstrap.
       </p>
-      <h3>( work in progress )</h3>
-      <p>
-        A website for a Tour Agency, written in VueJS as a PWA. 2 backends for data, the admin page in Laravel and an API served by a Vapor/Swift server.
-      </p>
       <h3>links</h3>
       <table-list :content="works" />
     </main>
